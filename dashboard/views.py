@@ -1,9 +1,9 @@
 from .models import Vessels
 from .serializers import VesselSerializer
-from rest_framework.generics import ListCreateAPIView
+from rest_framework.generics import ListAPIView
 from rest_framework.views import Response,APIView
 
-class AddVessel(ListCreateAPIView):
+class AddVessel(ListAPIView):
     queryset=Vessels.objects.all()
     serializer_class=VesselSerializer
 
