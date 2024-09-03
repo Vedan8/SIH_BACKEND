@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "corsheaders",
     'dashboard',
     'Anomaly_Detection',
+    'Alert_logs',
 ]
 
 MIDDLEWARE = [

@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('dashboard.urls')),
     path('api/',include('Anomaly_Detection.urls')),
+    path('api/',include('Alert_logs.urls')),
 ]
